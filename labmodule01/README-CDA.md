@@ -8,12 +8,14 @@ Be sure to implement all the PIOT-CDA-* issues (requirements).
 
 NOTE: Include two full paragraphs describing your implementation approach by answering the questions listed below.
 
-What does your implementation do? 
+What does your implementation do?
+
 Se han seguido las instrucciones del libro "Programmin the Internet of Things" para configurar el entorno.
 Han sido clonados los repositorios necesarias e instalados los recursos que se utilizarán en las próximas prácticas.
 Se ejecutaron los tests para comprobar el correcto funcionamiento.
 
 How does your implementation work?
+
 Se modificó el PythonPath y pequeños fragmentos del código para el correcto funcionamiento de los test.
 
 ### Code Repository and Branch
