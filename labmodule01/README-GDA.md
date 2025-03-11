@@ -10,13 +10,17 @@ NOTE: Include two full paragraphs describing your implementation approach by ans
 
 What does your implementation do? 
 
+Se han seguido las instrucciones del libro "Programmin the Internet of Things" para configurar el entorno. Han sido clonados los repositorios necesarias e instalados los recursos que se utilizarán en las próximas prácticas. Se ejecutaron los tests para comprobar el correcto funcionamiento.
+
 How does your implementation work?
+
+No fueron necesarios cambios para el correcto funcionamiento de los tests.
 
 ### Code Repository and Branch
 
 NOTE: Be sure to include the branch.
 
-URL: 
+URL: https://github.com/carlossaz9/PIC-java-components.git
 
 
 ### Unit Tests Executed
@@ -25,9 +29,10 @@ NOTE: The instructor will execute your unit tests. You only need to list each te
 (e.g. ConfigUtilTest, DataUtilTest, etc). Be sure to include all previous tests, too,
 since you need to ensure you haven't introduced regressions.
 
-- 
-- 
-- 
+- ConfigUtilTest.java 
+- ResourceNameTest.java
+- SystemCpuUtilTaskTest.java
+- SystemMemUtilTaskTest.java
 
 ### Integration Tests Executed
 
@@ -36,8 +41,7 @@ some exceptions (such as your cloud connectivity tests). In such cases, they'll 
 your code to ensure it's correct. As for the tests you execute, you only need to list each
 test case below (e.g. SensorSimAdapterManagerTest, DeviceDataManagerTest, etc.)
 
-- 
-- 
-- 
+- GatewayDeviceAppTest.java
+- SystemPerformanceManagerTest.java
 
 EOF.
