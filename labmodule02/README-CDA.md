@@ -16,17 +16,17 @@ How does your implementation work?
 
 Se ha creado una clase base para las tareas de adquisición de telemetría, a partir de la cual se derivan dos clases específicas:
 
-    SystemCpuUtilTask → Obtiene métricas de uso de CPU.
-    SystemMemUtilTask → Obtiene métricas de uso de memoria.
+SystemCpuUtilTask → Obtiene métricas de uso de CPU.
+SystemMemUtilTask → Obtiene métricas de uso de memoria.
 
 Estas clases implementan métodos específicos para la recopilación de datos. Su ejecución es gestionada por el SystemPerformanceManager, que las activa y desactiva según sea necesario.
 
 El SystemPerformanceManager:
 
-    Llama a las tareas de telemetría a través del método handleTelemetry().
-    Gestiona la frecuencia de muestreo (pollRate).
-    Mantiene un registro de las mediciones en un log.
-    Inicializa configuraciones clave del sistema, como el pollRate y el locationID.
+- Llama a las tareas de telemetría a través del método handleTelemetry().
+- Gestiona la frecuencia de muestreo (pollRate).
+- Mantiene un registro de las mediciones en un log.
+- Inicializa configuraciones clave del sistema, como el pollRate y el locationID.
 
 De esta forma, la implementación permite el monitoreo continuo del sistema y prepara la infraestructura para futuras mejoras en la plataforma de IoT.
 
