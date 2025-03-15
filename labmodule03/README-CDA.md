@@ -65,6 +65,7 @@ test case below (e.g. SensorSimAdapterManagerTest, DeviceDataManagerTest, etc.)
 - ActuatorAdapterManagerTest
 - DeviceDataManagerNoCommsTest
 - ConstrainedDeviceAppTest
+- SystemPerformanceManagerTest
 
 
 EOF.
