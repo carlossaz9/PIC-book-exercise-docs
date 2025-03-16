@@ -22,7 +22,7 @@ Se modificó el PythonPath y pequeños fragmentos del código para el correcto f
 
 NOTE: Be sure to include the branch 
 
-URL: https://github.com/carlossaz9/PIC-python-components.git
+URL: https://github.com/carlossaz9/PIC-python-components/tree/default
 
 ### Unit Tests Executed
 
