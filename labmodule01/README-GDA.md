@@ -20,7 +20,7 @@ No fueron necesarios cambios para el correcto funcionamiento de los tests.
 
 NOTE: Be sure to include the branch.
 
-URL: https://github.com/carlossaz9/PIC-java-components.git
+URL: https://github.com/carlossaz9/PIC-java-components/tree/default
 
 
 ### Unit Tests Executed
