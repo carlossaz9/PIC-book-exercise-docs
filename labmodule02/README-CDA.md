@@ -34,7 +34,7 @@ De esta forma, la implementación permite el monitoreo continuo del sistema y pr
 
 NOTE: Be sure to include the branch.
 
-URL: https://github.com/carlossaz9/PIC-python-components.git
+URL: https://github.com/carlossaz9/PIC-python-components/tree/P2
 
 ### Unit Tests Executed
 
