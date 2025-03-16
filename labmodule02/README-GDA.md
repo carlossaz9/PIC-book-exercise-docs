@@ -44,7 +44,7 @@ La implementación sigue un enfoque modular y jerárquico, estructurado en tres 
 
 NOTE: Be sure to include the branch.
 
-URL: https://github.com/carlossaz9/PIC-java-components.git
+URL: https://github.com/carlossaz9/PIC-java-components/tree/P2
 
 
 ### Unit Tests Executed
