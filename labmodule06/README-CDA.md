@@ -19,7 +19,7 @@ También se realizaron pruebas para asegurar la compatibilidad y correcto funcio
 
 NOTE: Be sure to include the branch.
 
-URL: https://github.com/carlossaz9/PIC-python-components/tree/labmodule06
+URL: https://github.com/carlossaz9/PIC-python-components/tree/P6
 
 
 ### Unit Tests Executed
