@@ -10,13 +10,17 @@ NOTE: Include two full paragraphs describing your implementation approach by ans
 
 What does your implementation do? 
 
+Mi implementación permite al CDA comunicarse de forma segura con el GDA usando MQTT con cifrado TLS. Soporta el envío de datos (sensores, rendimiento, actuadores) y la recepción de comandos remotos para controlar el humidificador. También incluye lógica local para activar el HVAC según la temperatura.
+
 How does your implementation work?
+
+Mi implementación usa `tls_set` y certificados generados con OpenSSL para establecer una conexión MQTT segura con TLS. Al recibir datos del GDA, el cliente MQTT los procesa, `DeviceDataManager` los convierte a objetos `ActuatorData`, y `ActuatorDataManager` actualiza el humidificador según las instrucciones. También se integró lógica local para activar el HVAC según la temperatura.
 
 ### Code Repository and Branch
 
 NOTE: Be sure to include the branch.
 
-URL: 
+URL: https://github.com/carlossaz9/PIC-python-components/tree/P10
 
 
 ### Unit Tests Executed
@@ -25,9 +29,19 @@ NOTE: The instructor will execute your unit tests. You only need to list each te
 (e.g. ConfigUtilTest, DataUtilTest, etc). Be sure to include all previous tests, too,
 since you need to ensure you haven't introduced regressions.
 
-- 
-- 
-- 
+- ConfigUtilTest.py
+- SystemCpuUtilTaskTest.py
+- SystemMemUtilTaskTest.py
+- ActuatorDataTest.py
+- SensorDataTest.py
+- SystemPerformanceDataTest.py
+- HumiditySensorSimTaskTest.py
+- PressureSensorSimTaskTest.py
+- TemperatureSensorSimTaskTest.py
+- HumidifierActuatorSimTaskTest.py
+- HvacActuatorSimTaskTest.py
+- All unit tests in part02
+
 
 ### Integration Tests Executed
 
@@ -36,8 +50,24 @@ some exceptions (such as your cloud connectivity tests). In such cases, they'll 
 your code to ensure it's correct. As for the tests you execute, you only need to list each
 test case below (e.g. SensorSimAdapterManagerTest, DeviceDataManagerTest, etc.)
 
-- 
-- 
-- 
+- ConstrainedDeviceAppTest.py
+- SystemPerformanceManagerTest.py
+- SensorAdapterManagerTest.py
+- ActuatorAdapterManagerTest.py
+- DeviceDataManagerNoCommsTest.py
+- SenseHatEmulatorQuickTest.py
+- HumidityEmulatorTaskTest.py
+- PressureEmulatorTaskTest.py
+- TemperatureEmulatorTaskTest.py
+- HumidifierEmulatorTaskTest.py
+- HvacEmulatorTaskTest.py
+- LedDisplayEmulatorTaskTest.py
+- SensorEmulatorManagerTest.py
+- ActuatorEmulatorManagerTest.py
+- DataIntegrationTest.py
+- MqttClientConnectorTest.py
+- CoapClientConnectorTest.py
+- DeviceDataManagerIntegrationTest.py
+
 
 EOF.
