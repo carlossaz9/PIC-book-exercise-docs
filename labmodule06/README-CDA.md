@@ -9,9 +9,11 @@ Be sure to implement all the PIOT-CDA-* issues (requirements) listed.
 NOTE: Include two full paragraphs describing your implementation approach by answering the questions listed below.
 
 What does your implementation do? 
+
 La implementación añade soporte para MQTT, lo que permite que los dispositivos IoT se comuniquen entre sí mediante la publicación y suscripción a tópicos. Esto facilita el intercambio de datos en tiempo real entre los diferentes componentes del sistema.
 
 How does your implementation work?
+
 Mi implementación funciona configurando un cliente MQTT que se conecta automáticamente a un broker. Este cliente permite publicar mensajes en tópicos específicos y suscribirse a ellos, lo que facilita el envío y la recepción de datos entre dispositivos. Además, se han implementado callbacks que procesan los mensajes entrantes y gestionan eventos como reconexiones o errores. Gracias a esto, los dispositivos pueden compartir información de forma eficiente en tiempo real. 
 También se realizaron pruebas para asegurar la compatibilidad y correcto funcionamiento con el resto de los componentes del sistema.
 
