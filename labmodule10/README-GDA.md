@@ -66,9 +66,13 @@ EOF.
 
 ![QoS 2](https://github.com/user-attachments/assets/8836b096-56ee-449c-936d-924d6e68b21c)
 
+![POST-CON](https://github.com/user-attachments/assets/30de75ec-eee0-40ac-bd25-d4b3f82b7c55)
 
+![POST-NON](https://github.com/user-attachments/assets/4885c318-2eb3-4e97-9d97-786a06cd02bb)
 
+![PUT-CON](https://github.com/user-attachments/assets/55b206d7-d33f-4409-9818-95801915753c)
 
+![PUT-NON](https://github.com/user-attachments/assets/f5254e43-7cb7-4413-9d96-b148cb0ed86e)
 
 
 
