@@ -20,7 +20,7 @@ Mi implementación usa MqttAsyncClient para comunicación asíncrona y segura me
 
 NOTE: Be sure to include the branch.
 
-URL: 
+URL: https://github.com/carlossaz9/PIC-java-components/tree/P10
 
 
 
