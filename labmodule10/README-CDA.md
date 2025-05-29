@@ -71,3 +71,11 @@ test case below (e.g. SensorSimAdapterManagerTest, DeviceDataManagerTest, etc.)
 
 
 EOF.
+![QoS0](https://github.com/user-attachments/assets/bf396728-4d1d-4768-95ea-4c5bb3c6c5d7)
+
+![QoS 1](https://github.com/user-attachments/assets/d50160e0-bd58-4a38-9bc7-4f92b380361a)
+
+![QoS 2](https://github.com/user-attachments/assets/c9222695-eb24-4a72-87c4-0cde6db8e04a)
+
+
+
