@@ -41,4 +41,9 @@ test case below (e.g. SensorSimAdapterManagerTest, DeviceDataManagerTest, etc.)
 - 
 - 
 
-EOF.
+EOF.![QoS 0](https://github.com/user-attachments/assets/1ade485a-8f7d-4079-a798-729bdbec9939)
+
+
+
+
+
