@@ -10,13 +10,18 @@ NOTE: Include two full paragraphs describing your implementation approach by ans
 
 What does your implementation do? 
 
+Mi implementación permite que el GDA reciba por MQTT o CoAP los nuevos datos generados en el CDA y los envíe a la nube, integrando estos sensores y actuadores nuevos con el sistema cloud existente.
+
 How does your implementation work?
+
+Mi implementación modifica el flujo de envío de datos para incluir los datos del sensor de gases y luz, que el GDA recibe del CDA y reenvía a la nube usando CloudClientConnector. Además, procesa comandos de actuadores recibidos vía MQTT, creando objetos ActuatorData que envía al CDA para controlar el ventilador. Se incluyen tests para validar estos nuevos dispositivos.
+
 
 ### Code Repository and Branch
 
 NOTE: Be sure to include the branch.
 
-URL: 
+URL: https://github.com/carlossaz9/PIC-java-components/tree/P12
 
 
 
@@ -26,9 +31,7 @@ NOTE: The instructor will execute your unit tests. You only need to list each te
 (e.g. ConfigUtilTest, DataUtilTest, etc). Be sure to include all previous tests, too,
 since you need to ensure you haven't introduced regressions.
 
-- 
-- 
-- 
+- Todos los de las partes 1,2,3 y 4
 
 ### Integration Tests Executed
 
@@ -37,8 +40,6 @@ some exceptions (such as your cloud connectivity tests). In such cases, they'll 
 your code to ensure it's correct. As for the tests you execute, you only need to list each
 test case below (e.g. SensorSimAdapterManagerTest, DeviceDataManagerTest, etc.)
 
-- 
-- 
-- 
+- Todos los de las partes 1,2,3 y 4
 
 EOF.
