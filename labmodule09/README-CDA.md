@@ -69,3 +69,12 @@ test case below (e.g. SensorSimAdapterManagerTest, DeviceDataManagerTest, etc.)
 - CoapClientConnectorTest.py
 
 EOF.
+
+![QoS 0](https://github.com/user-attachments/assets/1eb9e6a7-c07f-471a-807c-bc895daab05b)
+
+![QoS 1](https://github.com/user-attachments/assets/c7d6161d-be32-4757-8a6e-ea151196be9c)
+
+![QoS 2](https://github.com/user-attachments/assets/b8e7c91e-6e26-4032-824f-feae18a4f403)
+
+
+
